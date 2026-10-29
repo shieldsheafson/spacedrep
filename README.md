@@ -88,3 +88,7 @@ python3 -m unittest discover -s tests
 | `spacedrep/scheduler.py` | SM-2 style review intervals |
 | `spacedrep/store.py`     | SQLite storage |
 | `spacedrep/cli.py`       | terminal interface |
+
+## License
+
+MIT — see [LICENSE](LICENSE).
