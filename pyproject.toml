@@ -1,0 +1,27 @@
+[project]
+name = "spacedrep"
+version = "0.1.0"
+description = "German ⇄ English spaced repetition flashcards that check articles, separable verbs, prepositions and cases"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Benedict Smith" }]
+keywords = ["flashcards", "spaced repetition", "german", "language learning", "sm-2"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: Console",
+    "Topic :: Education",
+    "Natural Language :: German",
+]
+
+[project.urls]
+Homepage = "https://github.com/shieldsheafson/spacedrep"
+
+[project.scripts]
+spacedrep = "spacedrep.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["spacedrep"]
